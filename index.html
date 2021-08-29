@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">Etch-a-Sketch Demo</h1>
+    </header>
+    <main>
+        <div id="settings">
+            <span id="gridSize"></span>
+            <input id="gridSlider" type="range" value="16" min="2" max="64">
+            <button id="colorButton">Color Mode</button>
+            <input id="colorPicker" type="color">
+            <button id="rainbowButton">Rainbow Mode</button>
+            <button id="eraserButton">Eraser Mode</button>
+            <button id="clearButton">Clear Grid</button>
+        </div>
+        <div id="grid"></div>
+    </main>
+    <footer>
+        <span id="copyright">&copy; 2021 Steven Whitfield</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

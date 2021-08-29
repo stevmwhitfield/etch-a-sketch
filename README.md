@@ -4,7 +4,7 @@
 
 ### Description:
 
-A JavaScript web app made to resemble an Etch-a-Sketch drawing pad.
+A web page made to resemble an Etch-a-Sketch drawing pad.
 
 ### Skills used:
 
